@@ -43,10 +43,10 @@ __C.MODEL.PIXELS = 16
 __C.MODEL.RADIUS = 200
 
 # input height
-__C.MODEL.HEIGHT = 960
+__C.MODEL.HEIGHT = 480
 
 # input width
-__C.MODEL.WIDTH = 448
+__C.MODEL.WIDTH = 640
 
 # normalization amplitude in optical flow
 __C.MODEL.FLOWC = 20

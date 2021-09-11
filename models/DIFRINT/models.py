@@ -293,7 +293,7 @@ class DIFNet2(nn.Module):
 
         # PWC
         self.pwc = PwcNet()
-        self.pwc.load_state_dict(torch.load('./ckpt/sintel.pytorch'))
+        self.pwc.load_state_dict(torch.load('./DUTPretrained/ckpt/sintel.pytorch'))
         self.pwc.eval()
 
         # Warping layer
@@ -602,7 +602,7 @@ class DIFNet3(nn.Module):
 
         # PWC
         self.pwc = PwcNet()
-        self.pwc.load_state_dict(torch.load('./trained_models/sintel.pytorch'))
+        self.pwc.load_state_dict(torch.load('.//DUTPretrained/ckpt/sintel.pytorch'))
         self.pwc.eval()
 
         # Warping layer
